@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 0;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .nav {
+            display: flex;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav li {
+            margin-left: 20px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            list-style-type: none;
+            color: #333;
+            text-decoration: nonem;
+        }
+
+        .search-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 5px;
+        }
+
+        .search-input {
+            border: none;
+            padding: 5px;
+        }
+
+        .slide-image {
+            display: flex;
+            width: 100%;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin-bottom: 20px;
+            justify-content: center;
+        }
+
+        .product-container {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            width: 30%;
+            border: 1px solid #ccc;
+            padding: 1 rem;
+            margin: 1rem;
+        }
+
+        .product-image {
+            width: 100%;
+            height: 150px;
+            border: 1px solid #ccc;
+        }
+        .honda{
+            width: 600px;
+            height: 300px;
+        }
+
+        .product-name {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .product-price {
+            font-size: 16px;
+            color: #666;
+        }
+        img{
+            width: 100px;
+            height: 100px;
+        }
+        .poto{
+            width: 100px;
+            height: 100px;
+        }
+        .isi{
+            width: 200px;
+            height: 100px;
+            background-image: url("/img/mobil.png");
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">Logo</div>
+            <nav class="nav">
+                <ul style="display: flex;">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="search-container">
+                <input type="search" class="search-input" placeholder="Search...">
+            </div>
+        </header>
+        <div class="slide-image">
+            <img src="/img/logo honda.png" alt="Slide Image" class="honda">
+        </div>
+        <div class="product-container">
+            <div class="product">
+                <img src="/img/Maclaren.jpeg" alt="Product Image">
+                <h2 class="product-name">Product 1</h2>
+                <p class="product-price">$10.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo laborum et quos vitae ipsam quibusdam tenetur non sint, doloribus eaque maxime officia facilis sapiente. Quod obcaecati consequatur quaerat incidunt.</p>
+            </div>
+            <div class="product">
+                <img src="/img/mobil.png" alt="Product Image">
+                <h2 class="product-name">Product 2</h2>
+                <p class="product-price">$20.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo laborum et quos vitae ipsam quibusdam tenetur non sint, doloribus eaque maxime officia facilis sapiente. Quod obcaecati consequatur quaerat incidunt.</p>
+            </div>
+            <div class="product">
+                <!-- <div class="poto">
+                    <div clas="isi"></div>
+                </div> -->
+                <img src="/img/hondaCIVIC.jpeg" alt="Product Image">
+                <h2 class="product-name">Product 3</h2>
+                <p class="product-price">$30.00</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui explicabo laborum et quos vitae ipsam quibusdam tenetur non sint, doloribus eaque maxime officia facilis sapiente. Quod obcaecati consequatur quaerat incidunt.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
